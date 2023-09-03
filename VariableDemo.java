@@ -8,6 +8,7 @@ public class VariableDemo {
         long l=10001;
         float f=10.0f;
         double d=10.0d;
+        a=true;
         System.out.println("boolean value is "+a);
         System.out.println("char value is "+c);
         System.out.println("short value is"+s1);
