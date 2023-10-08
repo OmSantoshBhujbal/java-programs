@@ -1,6 +1,6 @@
 public class BreakContinueDemo {
     public static void main(String[] args) {
-        int i,j;
+        int i;
         System.out.println("break demo");
         for(i=1;i<=10;i++)
         {

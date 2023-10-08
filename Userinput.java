@@ -14,7 +14,7 @@ public class Userinput {
             break;
             }
             System.out.println(i);
-           
+           s.close();
         }
     }
     
