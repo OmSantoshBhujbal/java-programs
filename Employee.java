@@ -4,7 +4,7 @@ public class Employee {
     //Default Constructor
     Employee()
     {
-        System.out.println("Invoking Default Constructor");
+        System.out.println("This is a Default Constructor");
         EmpAge=19;
         EmpName="Amu";
     }
@@ -20,6 +20,9 @@ public class Employee {
         System.out.println("Age is\t"+EmpAge);
         System.out.println("Name is\t"+EmpName);
 
+    }
+    public static void main(String[] args) {
+        
     }
     
 }
