@@ -5,7 +5,7 @@ public class GoodMorning {
         Scanner a = new Scanner(System.in);
         System.out.println("Enter your Greeting");
         int type = a.nextInt();
-        //a.close();
+        a.close();
         //Scanner b = new Scanner(System.in);
         System.out.println("Enter CHOICE:");
         String time = a.nextLine();

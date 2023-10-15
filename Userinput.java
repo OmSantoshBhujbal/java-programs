@@ -6,15 +6,15 @@ public class Userinput {
         
         for(i=1;i<=100;i++)
         {
-        Scanner sc = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.println("Enter Numbers to be printed");
-        i=sc.nextInt();
+        i=s.nextInt();
             if(i==0)
-            {
-                break;
+            {  
+            break;
             }
             System.out.println(i);
-           
+           s.close();
         }
     }
     
