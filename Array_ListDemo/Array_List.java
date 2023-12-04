@@ -25,7 +25,7 @@ public class Array_List {
         }
 
         System.out.println("After Removing Hydrogen");
-        chemistryElementList.remove("Hydrogen");
+        chemistryElementList.remove("Hydrogen");3
         System.out.println(chemistryElementList);
 
     }
