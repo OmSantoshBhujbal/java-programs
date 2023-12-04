@@ -65,10 +65,11 @@ public class PageSizeViewer {
         }
     public static void main(String[] args) {
         PageSizeViewer pageSizeViewer = new PageSizeViewer();
-        int Pagetype;
+        int Pagetype,i;
         Scanner S = new Scanner(System.in);
-        System.out.println("Enter Page Type :");
         Pagetype = S.nextInt();
+        System.out.println("Enter Page Type :");
+        
         if(+Pagetype == 0)
         {
             pageSizeViewer.displayA0();
